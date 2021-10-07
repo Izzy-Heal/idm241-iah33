@@ -24,11 +24,12 @@ h2{
     margin-left: 10%;
     margin-bottom: .5rem;
 }
-div{
+.main{
     background-color: #edf2fb;
     width: 75%;
     margin: auto;
     border-radius: 2rem;
+    max-width: 800px;
 }
 p{
     width: 80%;
@@ -39,8 +40,36 @@ a{
     text-align: center;
     padding-top: 1.5rem;
 }
+img{
+    display: block;
+    max-width: 75%;
+    margin: auto;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
 .end{
     padding-bottom: 3rem;
 }
-@media (min-width: 630px){}
-@media(min-width: 900px){}
+.vis{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 0;
+}
+
+@media (min-width: 630px){
+    img{
+        max-width: 80%;
+    }
+    .wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 6rem;
+    }
+    .left{
+        margin-left: 4rem;
+    }
+    .right{
+        margin-right: 4rem;
+    }
+}
