@@ -1,0 +1,61 @@
+h1, h2{
+    font-family: 'Astloch', cursive;
+}
+h1{
+    text-align: center;
+}
+h2{
+    margin-left: 10%;  
+}
+body{
+    font-family: 'Asul', sans-serif;
+    background-color: #d3ccd4;
+}
+.main{
+    
+    width: 80%;
+    margin: auto;
+    max-width: 900px;
+}
+p{
+    width: 80%;
+    margin: auto;
+}
+.imgZone{
+    max-width: 500px;
+    width: 80%;
+    margin: auto; 
+}
+img{
+   max-width: 100%;
+   padding-bottom:4rem ;
+}
+.wrapper{
+display: grid;
+grid-template-columns: 100%;
+margin-bottom: 6rem;
+
+}
+@media (min-width: 1000px){
+    img{
+        max-width: 80%;
+        padding-bottom:4rem ;
+    }
+    .imgZone{
+        max-width: 900px;
+        width: 80%;
+        margin: auto; 
+    }
+    .wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 6rem;
+    
+    }
+    .left{
+        margin-left: 4rem;
+    }
+    .right{
+        margin-right: 4rem;
+    }
+}
