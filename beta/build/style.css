@@ -24,10 +24,21 @@ body{
 
 .container{
     position: relative;
-    width: 60%;
+    width: 50%;
+    margin: auto;
+}
+.container2{
+    position: relative;
+    width: 50%;
     margin: auto;
 }
 #txtbx{
+    background-color: azure;
+    position:absolute;
+    bottom: 0px;
+    width: 100%;
+}
+#txtbx2{
     background-color: azure;
     position:absolute;
     bottom: 0px;
