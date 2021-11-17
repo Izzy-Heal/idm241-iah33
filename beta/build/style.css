@@ -72,7 +72,9 @@ p.picInfo{
 	-webkit-animation: slide-out-bottom 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	        animation: slide-out-bottom 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
-
+.fin{
+  padding-bottom: 3rem;
+}
 @-webkit-keyframes slide-out-bottom {
     0% {
       -webkit-transform: translateY(0);
@@ -127,7 +129,19 @@ p.picInfo{
       }
   }
  
+@media (max-width: 800px){
+  .container{
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+.container2{
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
 
+}
 @media (min-width: 1000px){
     img{
         padding-bottom:4rem ;
