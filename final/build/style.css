@@ -205,7 +205,7 @@ p.picInfo{
       }
   }
  
-@media (max-width: 800px){
+@media (max-width: 600px){
   .container{
     position: relative;
     width: 90%;
@@ -248,6 +248,7 @@ p.picInfo{
         align-content: top;
         justify-content: start;
         align-items: start;
+        order: initial;
     
        
         
@@ -255,11 +256,12 @@ p.picInfo{
 .modalPic{
     max-width: 80%;
     margin: auto;
-
+    order: initial;
 }
 .buttonCont{
     text-align: right;
     padding-top: 1rem;
+    order: initial;
 }
 button{
     background-color: #d3ccd4;
@@ -281,5 +283,10 @@ button{
 	align-items: top;
 	flex-direction: column;
 }
-
+.modTxt{
+    order: initial;
+}
+.modN{
+    order:initial;
+}
 }
