@@ -25,6 +25,7 @@ button{
     align-self: flex-end;
     font-family: 'Astloch', cursive;
     margin: 0;
+    cursor:pointer;
 }
 .modal-body {
 	background-color: #fff;
@@ -86,6 +87,7 @@ h2{
 body{
     font-family: 'Asul', sans-serif;
     background-color: #d3ccd4;
+    
 }
 .main{
     
@@ -144,12 +146,18 @@ p.picInfo{
     display: block;
     margin: 1rem auto;
 }
+.fade-in{
+    
+}
 .slide-out-bottom {
 	-webkit-animation: slide-out-bottom 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	        animation: slide-out-bottom 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 .fin{
   padding-bottom: 3rem;
+}
+#image{
+    cursor:pointer;
 }
 @-webkit-keyframes slide-out-bottom {
     0% {
@@ -271,6 +279,7 @@ button{
     align-content: flex-end;
     font-family: 'Astloch', cursive;
     margin: 0;
+    
 }
 .modal {
     position: absolute;
