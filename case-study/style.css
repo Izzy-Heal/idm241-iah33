@@ -5,7 +5,7 @@ h1{
     text-align: center;
 }
 h2{
-    margin-left: 10%;  
+    margin-left: 25%;  
 }
 body{
     font-family: 'Asul', sans-serif;
@@ -18,8 +18,9 @@ body{
     max-width: 900px;
 }
 p{
-    width: 80%;
+    max-width: 60ch;
     margin: auto;
+    padding-bottom: 1rem;
 }
 .imgZone{
     max-width: 500px;
@@ -34,7 +35,9 @@ img{
 display: grid;
 grid-template-columns: 100%;
 margin-bottom: 6rem;
-
+}
+.bottom{
+    padding-bottom: 5rem;
 }
 @media (min-width: 1000px){
     img{
